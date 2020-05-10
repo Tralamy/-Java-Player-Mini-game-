@@ -17,6 +17,8 @@ public class Player {
 		this.fireBallPerPlayer = fireBallPerPlayer;
 		this.healPotionPerPlayer = healPotionPerPlayer;
 		maxHealth = health;
+		fireBallDamage = 50.0;
+		healPotion = 75.0;
 	}
 
 	public Player(String name, double health, double attack) {	

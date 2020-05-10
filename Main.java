@@ -24,7 +24,7 @@ public class Main {
 		System.out.print("[Name] User B: ");
 		userBName = scanLine.nextLine();
 
-		Player playerA = new Player(userAName, 300.0 , 100.0);
+		Player playerA = new Player(userAName);
 		Player playerB = new Player(userBName);
 
 		/*Player A*/
